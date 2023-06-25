@@ -90,6 +90,18 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-cache</artifactId>
         </dependency>
+        <!--sharding-jdbc 轻量级框架，基于jdbc开发-->
+        <!--<dependency>-->
+        <!--    <groupId>org.apache.shardingsphere</groupId>-->
+        <!--    <artifactId>sharding-jdbc-spring-boot-starter</artifactId>-->
+        <!--    <version>4.0.0-RC1</version>-->
+        <!--</dependency>-->
+        <!--knife4j是基于swagger的框架-->
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>knife4j-spring-boot-starter</artifactId>
+            <version>3.0.2</version>
+        </dependency>
     </dependencies>
 
     <build>
