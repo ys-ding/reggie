@@ -10,10 +10,10 @@ spring:
       username: root
       password: root
   redis:
-    host: 192.168.8.130
+    host: 139.9.247.226
     port: 6379
     password: 111111
-    database: 0
+    database: 2
   cache:
     redis:
       time-to-live: 180000 #设置缓存数据过期时间
